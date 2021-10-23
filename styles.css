@@ -11,7 +11,6 @@ body{
     width: 100%;
 }
 /*Header*/
-
 header > .container{
     display: flex;
     align-items: center;
@@ -37,4 +36,28 @@ li a{
 }
 li a:hover{
     color: #5A67D8;
+}
+
+/*Hero Overview*/
+.overview-hero{
+    background-color: #E2E8F0;
+}
+.overview-hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.overview-hero-text{
+    float: right;
+}
+.overview-hero-text h2, p{
+    padding-left: 55px;
+}
+.overview-hero-image img{
+    float: left;
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    padding: 2px;
+    border-radius: 20px;
 }
