@@ -66,6 +66,9 @@ li a:hover{
 }
 
 /*Learn About*/
+.learn-about{
+    padding-bottom: 50px;
+}
 .learn-about h2{
     font-size: 24px;
     color: #48BB78;
@@ -74,9 +77,6 @@ li a:hover{
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-between;
-    /*grid-template-rows: auto;
-    margin: 20px 20px; 
-    align-self: auto;*/
 }
 .learn-about .container .card{
     border: 2px solid;
@@ -98,4 +98,32 @@ li a:hover{
 }
 .card-body > p{
     padding-left: 10px;
+}
+
+/*Testing Programme*/
+.testing{
+    background-color: #4A5568;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.testing .container{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.testing-desciption{
+    width: 600px;
+}
+.btn{
+    background-color: #48BB78;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 10px 36px;
+}
+.cta{
+    padding-right: 75px;
 }
