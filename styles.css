@@ -127,3 +127,33 @@ li a:hover{
 .cta{
     padding-right: 75px;
 }
+
+/*Recent Stories*/
+.stories .container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.stories .container > h2{
+    color: #5A67D8;
+}
+.stories .container .article-body > p > a{
+    color: #5A67D8;
+    text-decoration: none;
+} 
+.stories .container .article-body > h3{
+    font-size: 18px;
+}
+.stories .container img{
+    height: 200px;
+    width: 200;
+    border-radius: 50%;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+.stories .container .article-body{
+    padding-left: 45px;
+}
