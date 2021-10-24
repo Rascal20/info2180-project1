@@ -50,7 +50,10 @@ li a:hover{
 .overview-hero-text{
     float: right;
 }
-.overview-hero-text h2, p{
+.overview-hero-text > h2{
+    padding-left: 55px;
+}
+.overview-hero-text > p{
     padding-left: 55px;
 }
 .overview-hero-image img{
@@ -60,4 +63,39 @@ li a:hover{
     object-fit: cover;
     padding: 2px;
     border-radius: 20px;
+}
+
+/*Learn About*/
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+.learn-about .container .cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    /*grid-template-rows: auto;
+    margin: 20px 20px; 
+    align-self: auto;*/
+}
+.learn-about .container .card{
+    border: 2px solid;
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 5px 5px #E2E8F0;
+    width: 275px;
+}
+.learn-about .container .card > img{
+    height: 175px;
+    width: 275px;
+    align-items: center;
+    border-radius: 2px;
+}
+.card-body > h3{
+    padding-left: 10px;
+    color: #48BB78;
+    font-size: 21px;
+}
+.card-body > p{
+    padding-left: 10px;
 }
