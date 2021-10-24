@@ -169,6 +169,10 @@ article{
     flex-direction: column;
     align-items: center;
 }
+.newsletter .container > p{
+    color: white;
+    width: 500px;
+}
 .newsletter .container > form{
     display: flex;
     flex-direction: row;
